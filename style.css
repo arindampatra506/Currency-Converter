@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height:100vh;
+  background-image:url(rupee.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color:#6cc7e5;
+  padding:3rem;
+  border-radius: 1rem;
+  min-height:40vh;
+  width:40vh;
+}
+
+form{
+  margin: 2rem 0 1rem 0;
+}
+
+form select,button,input {
+  width:100%;
+  border:none;
+  outline: none;
+  border-radius:0.70rem;
+}
+
+.par{
+  font-weight: 550;
+}
+
+form input {
+  border:1px solid lightgray;
+  font-size: 0.9rem;
+  height:1.7rem;
+  padding-left: 0.5rem;
+  
+}
+
+.dropdown {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top: 2rem;
+}
+
+.dropdown i{
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.select-container img {
+  max-width: 2.3rem;
+}
+
+.select-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 6rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+}
+
+.select-container select{
+  font-size: 0.8rem;
+  width: auto;
+}
+
+.msg{
+  margin: 2rem 0 2rem 0;
+  font-weight: 600;
+  border: 1px solid lightgray;
+  border-radius: 0.4rem;
+  padding: 0.15rem;
+   background-color:#fff;
+} 
+
+form button{
+  height: 3rem;
+  background-color:#18612e;
+  color:#fff;
+  font-size: 1.01rem;
+  cursor: pointer;
+  font-weight: 500;
+}
